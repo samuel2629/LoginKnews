@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/oldFactFragment"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#B2EBF2ff"
+                android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@mipmap/logofin"
+        android:contentDescription="@string/logo_another_fact_button"/>
+
+    <TextView
+        android:id="@+id/factPastTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dateLine"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:shadowRadius="1"
+        android:text="@string/empty"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal|italic"
+        tools:text="Dimitri Medvedev presents the first periodical table to the land of chimical industry."
+        android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:id="@+id/dateLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/end"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/time_line_image"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/empty"
+        android:textColor="#E64A19"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>

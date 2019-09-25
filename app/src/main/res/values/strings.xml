@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">K-News</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_string">Error retrieving the news.</string>
+    <string name="launcher_logo">launcher_logo</string>
+    <string name="send_button">SEND</string>
+    <string name="article_image">article image</string>
+    <string name="logo_image_navigation_drawer">logo image navigation drawer</string>
+    <string name="time_line_image">time line image</string>
+    <string name="empty">--</string>
+    <string name="title_alert_dialog">Oups! Something wrong happened.</string>
+    <string name="message_alert_dialog">Network not available, please retry.</string>
+    <string name="no_article_saved">You don\'t have any articles saved.</string>
+    <string name="general">General</string>
+    <string name="sport">Sport</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="high_tech">High-Tech</string>
+    <string name="business">Business</string>
+    <string name="send_to">Send to...</string>
+    <string name="share">Share</string>
+    <string name="ignore">Ignore</string>
+    <string name="more">More</string>
+    <string name="was_today_label">It Was Today</string>
+    <string name="ise">this should only be called when the cursor is valid</string>
+    <string name="ise_move">couldn\'t move cursor to position</string>
+    <string name="prev_today">Previously Today :</string>
+    <string name="saved_articles">Saved Articles</string>
+    <string name="around_world">Around The World</string>
+    <string name="article_saved_toast">Article Saved</string>
+    <string name="article_already_saved_toast">Already Saved</string>
+    <string name="signed_in">Signed In!</string>
+    <string name="error_signing_in">Error In Signing In!</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure you want to disconnect ?</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="licence_message">This application is powered by newsapi.org and the numbers api of the mashape marketplace.</string>
+    <string name="ok">OK</string>
+    <string name="happened_today">It\'s Happened Today...</string>
+    <string name="happening">What\'s Happening ?</string>
+    <string name="information">Information</string>
+    <string name="licences">Licences</string>
+    <string name="remove_all_items">Remove All Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="failed_download">Download Failed</string>
+    <string name="remove_items_question">Remove All Items ?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="item_deleted">Item Deleted</string>
+    <string name="no_item_deleted">No Item Deleted</string>
+    <string name="logo_another_fact_button">logo another fact button</string>
+    <string name="save_button">save button</string>
+    <string name="comment_button">comment button</string>
+    <string name="was">was</string>
+    <string name="today_in">Today in</string>
+    <string name="send_to_title">Send to...</string>
+    <string name="in">In</string>
+</resources>

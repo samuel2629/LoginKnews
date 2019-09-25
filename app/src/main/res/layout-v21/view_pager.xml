@@ -1,0 +1,32 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.Container.ViewPagerFragment"
+    >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        android:layout_marginTop="48dp"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:animateLayoutChanges="true"
+        android:elevation="4dp"
+        android:background="#E65100"
+        app:tabIndicatorColor="#01579B"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#ffffffff"
+        app:tabTextAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+
+</FrameLayout >

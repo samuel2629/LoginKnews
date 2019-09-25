@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110394138727",
+    "firebase_url": "https://knews-f8132.firebaseio.com",
+    "project_id": "knews-f8132",
+    "storage_bucket": "knews-f8132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110394138727:android:9df1a1933e6d39ff",
+        "android_client_info": {
+          "package_name": "com.silhocompany.ideo.knews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110394138727-ih5o0gljkik0po1etma1qe1bkns74rrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.silhocompany.ideo.knews",
+            "certificate_hash": "3f0bc25d9bac8529601796f53d9c2e3c3384fba6"
+          }
+        },
+        {
+          "client_id": "110394138727-516nj307795ql9fvvg6h0fo14aadg4gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5dLKkFUPcxKklvArW-zaMk1eSSP4c5SQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110394138727-516nj307795ql9fvvg6h0fo14aadg4gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

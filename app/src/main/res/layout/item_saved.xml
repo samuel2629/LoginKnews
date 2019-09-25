@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="2dp">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:id="@+id/relativeLayoutItemArticleSaved"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/photoImageViewSavedArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/article_image"/>
+
+        <TextView
+            android:id="@+id/title_saved_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photoImageViewSavedArticle"
+            android:background="#ffffffff"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:typeface="serif"
+            tools:text="The new CEO from Apple declare that he quites"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/description_saved_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/title_saved_article"
+            android:layout_marginBottom="2dp"
+            android:background="#ffffffff"
+            android:padding="4dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:typeface="serif"
+            tools:text="Knowing the new directory from the ground is laying back the jeffersion street the longest shortly while is being going on stage further back is declaring having solutions, but news fjfz"/>
+
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>

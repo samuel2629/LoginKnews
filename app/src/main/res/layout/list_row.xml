@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textColor="@android:color/black"
+    android:id="@+id/row_widget"
+    android:textSize="18sp"
+    android:padding="4dp"
+    android:gravity="center"
+    tools:text="Hello World"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</TextView>

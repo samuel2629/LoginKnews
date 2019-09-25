@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:background="#B2EBF2ff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLayoutMain"
+        android:gravity="center"
+        android:foregroundGravity="center"
+        android:background="#B2EBF2">
+
+        <ImageView
+            android:contentDescription="@string/launcher_logo"
+            android:foregroundGravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/logofin"
+            android:id="@+id/logoImageView"
+            android:shadowColor="#000000"
+            android:shadowRadius="8"
+            android:paddingRight="16dp"
+            android:adjustViewBounds="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="16dp"
+            android:layout_alignParentLeft="true"
+            android:paddingEnd="16dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
